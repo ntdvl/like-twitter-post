@@ -11,6 +11,10 @@ first.onkeyup = function () {
 
 		second.style.color = 'red';
 
+	} else {
+
+		second.style.color = '';
+
 	}
 
 
