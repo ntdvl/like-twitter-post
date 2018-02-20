@@ -1,5 +1,6 @@
 var first = document.getElementById('message');
 var second = document.getElementById('result');
+var third = document.querySelector('button');
 
 var charLimit = 180;
 
@@ -10,6 +11,7 @@ first.onkeyup = function () {
 	if (second.innerHTML < 0) {
 
 		second.style.color = 'red';
+		third.classList.add('disabled');
 
 	} else {
 
