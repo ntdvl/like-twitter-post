@@ -4,7 +4,9 @@ var third = document.querySelector('button');
 
 var charLimit = 180;
 
-first.onkeyup = function () {
+first.addEventListener('keypress', test, false);
+
+function test() {
 
 	second.innerHTML = charLimit - this.value.length;
 
@@ -18,6 +20,5 @@ first.onkeyup = function () {
 		second.style.color = '';
 
 	}
-
 
 }
