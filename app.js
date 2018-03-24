@@ -4,7 +4,7 @@ var third = document.querySelector('button');
 
 var charLimit = 180;
 
-first.addEventListener('keypress', test, false);
+first.addEventListener('keyup', test, false);
 
 function test() {
 
